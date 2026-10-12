@@ -9,11 +9,11 @@
 [![HTML](https://img.shields.io/badge/HTML5-Structure-E76F43?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-Design-398CCB?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Interaction-E5C84B?style=for-the-badge&logo=javascript&logoColor=111111)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Responsive](https://img.shields.io/badge/Layout-Responsive-1D9B8A?style=for-the-badge&logo=googlechrome&logoColor=white)](#-features)
+[![live preview](https://img.shields.io/badge/Live-preview-1D9B8A?style=for-the-badge&logo=googlechrome&logoColor=white)](blue-planet-ocean-website-saubhagya.vercel.app)
 
 **An immersive, responsive website celebrating marine biodiversity and inspiring ocean conservation.**
 
-[Explore the features](#-features) · [Run it locally](#-get-started) · [Project files](#-project-structure)
+[Explore the features](#-features) · [Run it](blue-planet-ocean-website-saubhagya.vercel.app) · [Project files](#-project-structure)
 
 </div>
 
