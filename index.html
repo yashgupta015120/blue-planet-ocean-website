@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#031d26" />
+  <meta name="description" content="Explore ocean biodiversity, discover marine ecosystems, learn about endangered sea life, and take action for a healthier blue planet." />
+  <title>BLUE / PLANET — The ocean is our future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Blue Planet home"><span class="brand-mark" aria-hidden="true">◉</span><span>BLUE<span class="brand-slash">/</span>PLANET</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#life">Marine life</a>
+      <a href="#ecosystems">Ecosystems</a>
+      <a href="#initiatives">Initiatives</a>
+      <a href="#habitats">Explore habitats</a>
+      <a class="nav-cta" href="#feedback">Join the tide <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <img class="hero-image marine-image" data-image-group="open-ocean" src="https://images.unsplash.com/photo-1518467166778-b88f373ffec7?auto=format&fit=crop&w=2200&q=88" alt="Sunlight reaching into a deep blue underwater world" fetchpriority="high" />
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-topline"><span>FIELD NOTES · ISSUE 01</span><span>THE BLUE PLANET IS ALIVE</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> One ocean. Countless stories.</p>
+        <h1 id="heroTitle"><span class="hero-outline">OCEAN</span><span class="hero-title-front">OCEAN<span class="title-period">.</span></span><span class="hero-subtitle">life is <em>life.</em></span></h1>
+        <p class="hero-description">From glowing reefs to the darkest trenches, the ocean connects every coast, every climate, and every one of us. Its future is part of our future.</p>
+        <div class="hero-actions"><a class="button button-light" href="#life">Dive into the blue <span>↘</span></a><a class="text-link" href="#initiatives"><span class="play-icon">≈</span> Small actions, lasting tides</a></div>
+      </div>
+      <div class="hero-side-label" aria-hidden="true">NO BLUE. NO GREEN. NO US.</div>
+      <div class="hero-bottomline"><span>01 / 04 — THE LIVING OCEAN</span><a href="#life" aria-label="Scroll to marine life">SCROLL TO DISCOVER <span class="scroll-arrow">↓</span></a><span class="hero-coordinates">71% OF OUR BLUE PLANET</span></div>
+      <div class="hero-orb" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro section-pad reveal" id="life">
+      <div class="section-kicker"><span>01 — LIFE BELOW THE SURFACE</span><span>A WORLD WORTH KNOWING</span></div>
+      <div class="intro-grid">
+        <div>
+          <h2 class="display-heading">A universe<br />beneath the <em>waves.</em></h2>
+          <p class="intro-lead">The ocean is not an empty blue expanse. It is a living, breathing network of species and habitats, from microscopic plankton to the largest animal ever known.</p>
+        </div>
+        <div class="intro-aside"><span class="big-asterisk">✳</span><p>Marine life helps move nutrients, feed communities, store carbon, and keep food webs functioning. Protecting ocean biodiversity means protecting a system that supports life far beyond the shoreline.</p><a class="underlined-link" href="#ecosystems">Explore the habitats <span>↗</span></a></div>
+      </div>
+
+      <div class="stats-row" aria-label="Ocean facts">
+        <div class="stat-item"><strong>~71<span>%</span></strong><span>of Earth's surface is ocean</span></div>
+        <div class="stat-item"><strong>5<span>+</span></strong><span>major ocean basins connected as one system</span></div>
+        <div class="stat-item"><strong>1<span> blue</span></strong><span>planet shared by millions of marine species</span></div>
+      </div>
+
+      <div class="species-grid">
+        <article class="species-card species-tall reveal">
+          <div class="species-photo"><img class="marine-image" data-image-group="turtle" src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1000&q=85" alt="Clear tropical sea with marine life habitat" loading="lazy" /><span class="photo-shade"></span></div>
+          <div class="species-number">01 / ANCIENT VOYAGERS</div>
+          <div class="species-info"><div><h3>Sea turtles</h3><p>Ocean navigators that connect seagrass beds, beaches, and reefs.</p></div><span class="round-arrow">↗</span></div>
+          <p class="species-status">THREATS · BYCATCH, PLASTIC, NESTING-HABITAT LOSS</p>
+        </article>
+        <article class="species-card species-offset reveal">
+          <div class="species-photo"><img class="marine-image" data-image-group="whale" src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1000&q=85" alt="Whale moving through the ocean" loading="lazy" /><span class="photo-shade"></span></div>
+          <div class="species-number">02 / OCEAN GIANTS</div>
+          <div class="species-info"><div><h3>Blue whales</h3><p>Gentle giants whose lives are tied to healthy, productive seas.</p></div><span class="round-arrow">↗</span></div>
+          <p class="species-status">THREATS · SHIP STRIKES, ENTANGLEMENT, OCEAN NOISE</p>
+        </article>
+        <article class="species-card species-wide reveal">
+          <div class="species-photo"><img class="marine-image" data-image-group="coral" src="https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1000&q=85" alt="Vibrant underwater reef ecosystem" loading="lazy" /><span class="photo-shade"></span></div>
+          <div class="species-number">03 / LIVING CITIES</div>
+          <div class="species-info"><div><h3>Coral reefs</h3><p>Small coral animals create shelter for an extraordinary range of marine life.</p></div><span class="round-arrow">↗</span></div>
+          <p class="species-status">THREATS · WARMING WATER, BLEACHING, POLLUTION</p>
+        </article>
+      </div>
+      <p class="source-note">Marine species face different risks in different regions. Choose responsibly sourced seafood, respect wildlife viewing distances, and follow guidance from reputable marine conservation organisations.</p>
+    </section>
+
+    <section class="manifesto" id="ecosystems">
+      <img class="manifesto-image marine-image" data-image-group="reef" src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?auto=format&fit=crop&w=2000&q=85" alt="Coral reef with a rich diversity of underwater life" loading="lazy" />
+      <div class="manifesto-wash" aria-hidden="true"></div>
+      <div class="manifesto-content reveal">
+        <div class="section-kicker light-kicker"><span>02 — CONNECTED BY WATER</span><span>ONE OCEAN · MANY WORLDS</span></div>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Nothing in the sea exists alone</p>
+        <h2 class="manifesto-heading">Every drop<br />belongs to a<br /><em>bigger blue.</em></h2>
+        <p class="manifesto-copy">Coral reefs shelter fish, mangroves cradle young marine life, seagrass meadows store carbon, and open waters move heat around the globe. Protecting these connected habitats helps the entire ocean endure.</p>
+        <a class="button button-outline" href="#habitats">Explore ocean worlds <span>↘</span></a>
+      </div>
+      <div class="manifesto-side-word" aria-hidden="true">CONNECTED</div>
+    </section>
+
+    <section class="pillars section-pad" id="initiatives">
+      <div class="section-kicker reveal"><span>03 — CONSERVATION IN MOTION</span><span>BETTER OCEANS ARE POSSIBLE</span></div>
+      <div class="pillars-heading reveal"><h2 class="display-heading">Protect the blue.<br />Restore the <em>balance.</em></h2><p>Marine conservation works best when science, communities, and everyday choices work together. These are practical ways to help a healthier ocean become more than a hope.</p></div>
+      <div class="pillar-list">
+        <article class="pillar-item reveal"><span class="pillar-icon">⌁</span><div><h3>Protect ocean habitats</h3><p>Support well-managed marine protected areas and restoration projects for coral reefs, mangroves, salt marshes, and seagrass meadows.</p></div><span class="pillar-tag">HABITATS</span></article>
+        <article class="pillar-item reveal"><span class="pillar-icon">◇</span><div><h3>Stop plastic at the source</h3><p>Refuse unnecessary single-use items, reuse what you can, sort waste correctly, and join safe, organised shoreline or river clean-ups.</p></div><span class="pillar-tag">LESS WASTE</span></article>
+        <article class="pillar-item reveal"><span class="pillar-icon">≈</span><div><h3>Choose ocean-friendly food</h3><p>Ask where seafood comes from, follow trustworthy local sustainability guidance, and avoid products linked to destructive or illegal fishing.</p></div><span class="pillar-tag">RESPONSIBLE CHOICES</span></article>
+        <article class="pillar-item reveal"><span class="pillar-icon">◎</span><div><h3>Make room for marine life</h3><p>Watch wildlife from a respectful distance, never touch coral or chase animals, and report stranded or entangled animals to trained local responders.</p></div><span class="pillar-tag">WILDLIFE</span></article>
+      </div>
+    </section>
+
+    <section class="action-section" id="action">
+      <img class="action-background marine-image" data-image-group="shore" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2000&q=85" alt="Ocean waves meeting the shore" loading="lazy" />
+      <div class="action-wash" aria-hidden="true"></div>
+      <div class="action-inner section-pad reveal">
+        <div class="section-kicker light-kicker"><span>04 — MAKE YOUR RIPPLE</span><span>A BLUEER FUTURE STARTS HERE</span></div>
+        <h2 class="display-heading">Small acts.<br /><em>Wider waves.</em></h2>
+        <p class="action-intro">Pick one action to begin with. Every thoughtful choice helps reduce pressure on the ocean and builds momentum for bigger change.</p>
+        <div class="action-checklist">
+          <label class="action-check"><input type="checkbox" /><span class="custom-check">✓</span><span><strong>Carry reusables</strong><small>Bring a bottle, cup, and bag to reduce throwaway packaging.</small></span><span class="check-number">01</span></label>
+          <label class="action-check"><input type="checkbox" /><span class="custom-check">✓</span><span><strong>Keep litter out of waterways</strong><small>Secure rubbish and recycle correctly so it cannot wash into drains, rivers, or the sea.</small></span><span class="check-number">02</span></label>
+          <label class="action-check"><input type="checkbox" /><span class="custom-check">✓</span><span><strong>Travel gently around wildlife</strong><small>Never feed, touch, chase, or crowd marine animals; choose responsible tour operators.</small></span><span class="check-number">03</span></label>
+          <label class="action-check"><input type="checkbox" /><span class="custom-check">✓</span><span><strong>Support credible conservation</strong><small>Learn about local projects, volunteer safely, and share verified information.</small></span><span class="check-number">04</span></label>
+        </div>
+        <p class="checklist-progress" id="checklistProgress" aria-live="polite">0 of 4 actions checked off. Every ripple counts.</p>
+      </div>
+    </section>
+
+    <section class="habitats-section section-pad" id="habitats">
+      <div class="section-kicker reveal"><span>05 — EXPLORE OCEAN WORLDS</span><span>ONE OCEAN · MANY ECOSYSTEMS</span></div>
+      <div class="habitats-heading reveal"><div><h2 class="display-heading">Different worlds.<br />One <em>blue home.</em></h2></div><p>From sunlit reefs to polar seas, each marine habitat supports distinctive life and performs vital work. Choose a habitat to discover why it matters and how we can protect it.</p></div>
+      <div class="habitat-tabs reveal" role="tablist" aria-label="Choose an ocean ecosystem">
+        <button class="habitat-tab is-active" role="tab" aria-selected="true" aria-controls="habitatPanel" id="tab-reef" data-habitat="reef"><span>01</span> Coral reefs <i>↗</i></button>
+        <button class="habitat-tab" role="tab" aria-selected="false" aria-controls="habitatPanel" id="tab-mangrove" data-habitat="mangrove"><span>02</span> Mangroves <i>↗</i></button>
+        <button class="habitat-tab" role="tab" aria-selected="false" aria-controls="habitatPanel" id="tab-open-ocean" data-habitat="open-ocean"><span>03</span> Open ocean <i>↗</i></button>
+        <button class="habitat-tab" role="tab" aria-selected="false" aria-controls="habitatPanel" id="tab-polar" data-habitat="polar"><span>04</span> Polar seas <i>↗</i></button>
+      </div>
+      <article class="habitat-panel reveal" id="habitatPanel" role="tabpanel" aria-labelledby="tab-reef" tabindex="0">
+        <div class="habitat-image image-frame" id="habitatImage"><img class="habitat-photo marine-image" id="habitatPhoto" data-image-group="reef" src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?auto=format&fit=crop&w=1400&q=88" alt="Coral reef full of underwater life" loading="lazy" /><span class="habitat-image-label" id="habitatImageLabel">A CITY BUILT BY LIFE</span><span class="image-index" id="habitatIndex">01 / 04</span></div>
+        <div class="habitat-details"><div class="habitat-meta"><span id="habitatMood">SHELTER · NURSERY · DIVERSITY</span><span class="status-dot">● ECOSYSTEM FIELD NOTE</span></div><h3 id="habitatTitle">Coral reefs <em>pulse.</em></h3><p class="habitat-description" id="habitatDescription">Built by tiny coral animals over generations, reefs provide food and shelter for a remarkable variety of sea life. They can also reduce wave energy along some coastlines.</p><div class="habitat-detail-grid"><div><span class="detail-symbol">✳</span><h4>Why it matters</h4><p id="habitatValue">Reefs create complex homes for fish and invertebrates and support coastal livelihoods and local food webs.</p></div><div><span class="detail-symbol">⌁</span><h4>How to protect it</h4><p id="habitatAction">Never stand on or touch coral, use reef-safe wildlife practices, reduce emissions, and support science-led reef protection.</p></div></div><div class="habitat-quote" id="habitatQuote">“A living city beneath the waves.”</div></div>
+      </article>
+      <div class="habitat-footnote reveal"><span class="footnote-mark">✳</span><p>Marine environments are connected by currents, food webs, and climate. Conservation plans should respect local communities and be guided by regional science.</p><a href="#feedback" class="underlined-link">Share an ocean idea <span>↗</span></a></div>
+    </section>
+
+    <section class="closing" aria-label="A note to remember"><img class="closing-photo marine-image" data-image-group="deep-sea" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2000&q=85" alt="Diver exploring a blue underwater world" loading="lazy" /><div class="closing-wash" aria-hidden="true"></div><div class="closing-words reveal"><span class="closing-mark">≈</span><p>The ocean is not<br />a distant place.<br />It is <em>our life support.</em></p><span class="closing-caption">LEAVE THE BLUE BETTER THAN YOU FOUND IT.</span></div></section>
+
+    <section class="feedback-section section-pad" id="feedback">
+      <div class="section-kicker reveal"><span>06 — YOUR VOICE MATTERS</span><span>GOOD IDEAS TRAVEL LIKE CURRENTS</span></div>
+      <div class="feedback-layout reveal"><div><h2 class="display-heading">What does<br />the ocean mean<br /><em>to you?</em></h2><p class="feedback-copy">Share your email and an idea, observation, or conservation action you care about. This demo form shows an on-page confirmation; it does not send or store your details on a server.</p></div>
+        <form class="feedback-form" id="feedbackForm" novalidate>
+          <label for="email">YOUR EMAIL ADDRESS</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+          <p class="field-error" id="emailError" aria-live="polite"></p>
+          <label for="feedbackMessage">A THOUGHT FOR THE OCEAN <span>(OPTIONAL)</span></label>
+          <textarea id="feedbackMessage" name="message" rows="4" maxlength="500" placeholder="One way I can help protect marine life is..."></textarea>
+          <div class="form-bottom"><span>500 characters max</span><button class="button button-dark" type="submit">Send a ripple <span>↗</span></button></div>
+          <p class="form-response" id="formResponse" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">◉</span><span>BLUE<span class="brand-slash">/</span>PLANET</span></a><p>For the life below the waves. For every generation.</p><a class="back-top" href="#top">BACK TO SURFACE ↑</a><span class="footer-year">© <span id="year"></span> BLUE / PLANET</span></footer>
+</body>
+</html>
